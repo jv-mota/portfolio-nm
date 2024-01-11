@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+/* ========== GOOGLE-FONTS =========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ========== VARIABLES-CSS ========== */
+:root {
+  /* header-height */
+  --header-height: 2.5rem;
+
+  /* colors */
+  --white: #FFFFFF;
+  --black: #000000; 
+  --bg-one: #F9F9F9;
+  --bg-two: #f4f4f6;
+  --bg-three: #f5f3f4;
+  --title: #bb010b;
+  --subtitle: #22333b;
+  --text-main: #666666;
+  --text-secondary: #fd9042;
+  
+  /* font and typography*/
+  --body-font: 'Poppins', sans-serif;
+  
+  /* .5rem = 8px | 1rem = 16px */
+  --big: 3.5rem;
+  --h1: 2.25rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --standard: 1rem;
+  --small: 0.875rem;
+  --smaller: 0.813rem;
+  --tiny: 0.625rem;  
+  
+  /* font weight */
+  --normal: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;  
+
+  /* margenes bottom  */    
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  
+  /* z-index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* =============== BASE ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--standard);
+  font-weight: var(--normal); 
+}
+
+body {
+  background-color: var(--bg-one);
+  color: var(--text-main);
+}
+
+h1, h2, h3 {
+  color: var(--title);  
+}
+
+ul {
+  list-style: none;  
+}
+
+a {
+  text-decoration: none;    
+}
+
+button {
+  cursor: pointer;  
+  border: none;
+  outline: none;     
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ======= REUSABLE-CSS-CLASSES ====== */
+.section {
+  padding: 5rem 0 4rem;    
+}
+
+.section__title {
+  font-size: var(--h1);
+  color: var(--title);   
+  font-weight: var(--bold); 
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--h3);
+  color: var(--subtitle);  
+  font-weight: var(--semi-bold);
+  margin-bottom: 3rem;  
+}
+
+.section__subtitle::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  display: inline-block;
+  background: var(--text-secondary);
+  margin: 6px 10px;
+}
+
+.section__subtitle::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  display: inline-block;
+  background: var(--text-secondary);
+  margin: 6px 10px;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;  
+}
+
+/* ============== LAYOUT ============= */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;   
+  gap: 1.5rem;
+}
+
+/* ============== BUTTONS ============ */
+.button {
+  display: inline-block;
+  background-color: var(--title);
+  color: var(--white);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--medium);
+}
+
+.button:hover {
+  background-color: var(--subtitle);  
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* =========== BREAKPOINTS =========== */
+/* For large devices */
+@media screen and (max-width: 992px) {  
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {    
+  
+}
+
+@media screen and (max-width: 576px) {   
+    
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) { 
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
   }
 }

@@ -1,0 +1,26 @@
+/* scroll-up */
+.scrollup {
+    position: fixed;
+    right: 1.5rem;
+    bottom: -20%;
+    background-color: var(--text-main);
+    opacity: 0.8;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50%;
+    z-index: var(--z-tooltip);
+    transition: all 0.4s;
+}
+
+.scrollup__icon {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.scrollup:hover {
+    background-color: var(--title);
+}
+
+/* show-scroll */
+.show-scroll {
+    bottom: 2rem;
+}
