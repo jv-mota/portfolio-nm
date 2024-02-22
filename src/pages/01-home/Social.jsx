@@ -7,31 +7,31 @@ const Social = () => {
 
       {/* facebook */}
       <a 
-      href="https://www.facebook.com" 
+      href="https://www.facebook.com/nelson.mateus.7334" 
       className="home__social-icon"
       target="_blank">
       <i class="fa-brands fa-facebook-f"></i>
       </a>
 
       {/* instagram */}
-      <a 
+     {/*  <a 
       href="https://www.instagram.com" 
       className="home__social-icon"
       target="_blank">
       <i class="uil uil-instagram"></i>
-      </a>
+      </a> */}
 
       {/* x-twitter */}
-      <a 
+      {/* <a 
       href="https://twitter.com" 
       className="home__social-icon"
       target="_blank">
       <i class="fa-brands fa-x-twitter"></i>
-      </a>
+      </a> */}
 
       {/* github */}
       <a 
-      href="https://github.com" 
+      href="https://github.com/NelsonMateus" 
       className="home__social-icon"
       target="_blank">
       <i class="uil uil-github-alt"></i>
@@ -39,7 +39,7 @@ const Social = () => {
 
       {/* linkedin */}
       <a 
-      href="https://www.linkedin.com" 
+      href="https://www.linkedin.com/in/nelson-pa-mateus" 
       className="home__social-icon"
       target="_blank">
       <i class="fa-brands fa-linkedin-in"></i>
@@ -47,7 +47,7 @@ const Social = () => {
 
       {/* youtube */}
       <a 
-      href="https://www.youtube.com" 
+      href="https://www.youtube.com/@statpy" 
       className="home__social-icon"
       target="_blank">
       <i class="fa-solid fa-circle-play"></i>

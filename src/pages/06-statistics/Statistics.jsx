@@ -28,7 +28,7 @@ const Statistics = () => {
           {/* statistics-video */}
           <div className="statistics__video">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=U1-tNfr9P8k"
+              url="https://www.youtube.com/watch?v=71jjolrvB_c"
               controls={true}  
               width="100%"
               height="375px" 
@@ -63,7 +63,7 @@ const Statistics = () => {
           {/* statistics-channel */}
           <div className="statistics__channel">
             <a 
-            href="#" 
+            href="https://www.youtube.com/@statpy" 
             className="statistics__button" 
             target="_blank"
             title="Youtube Channel">

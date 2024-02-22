@@ -25,9 +25,9 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">HTML</h3>
+                    <h3 className="skills__name">Excel</h3>
                     {/* level */}
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
 
@@ -37,7 +37,7 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">CSS</h3>
+                    <h3 className="skills__name">CDO</h3>
                     {/* level */}
                     <span className="skills__level">Advanced</span>
                 </div>
@@ -49,9 +49,9 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">JavaScript</h3>
+                    <h3 className="skills__name">QGIS</h3>
                     {/* level */}
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Advanced</span>
                 </div>
                 </div>
 
@@ -61,9 +61,9 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">Bootstrap</h3>
+                    <h3 className="skills__name">ArcGIS</h3>
                     {/* level */}
-                    <span className="skills__level">Basic</span>
+                    <span className="skills__level">Advanced</span>
                 </div>
                 </div>
 
@@ -73,9 +73,9 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">React</h3>
+                    <h3 className="skills__name">Dinamica EGO</h3>
                     {/* level */}
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Advanced</span>
                 </div>
                 </div>
 
@@ -85,7 +85,7 @@ const Others = () => {
 
                 <div>
                     {/* name */}
-                    <h3 className="skills__name">Git</h3>
+                    <h3 className="skills__name">Git / ShellScript</h3>
                     {/* level */}
                     <span className="skills__level">Intermediate</span>
                 </div>

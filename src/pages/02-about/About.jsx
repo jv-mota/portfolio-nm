@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import Profile from './Profile';
 import Information from './Information';
-import CV from '../../assets/curriculum-vitae.pdf';
+import CV from '../../assets/nelson-mateus.pdf';
 
 const About = () => {
   return (

@@ -21,10 +21,10 @@ const Skills = () => {
       <div className="skills__container container grid">
 
         {/* frontend */}   
-        <FrontEnd />           
+        {/* <FrontEnd />*/}       
 
         {/* backend */}
-        <BackEnd />
+        {/* <BackEnd /> */}
 
         {/* meteorologist */}
         <Meteorologist />

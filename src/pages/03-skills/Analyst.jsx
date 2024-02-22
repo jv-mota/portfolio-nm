@@ -27,7 +27,7 @@ const Analyst = () => {
                     {/* name */}
                     <h3 className="skills__name">HTML</h3>
                     {/* level */}
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
 
@@ -39,7 +39,7 @@ const Analyst = () => {
                     {/* name */}
                     <h3 className="skills__name">CSS</h3>
                     {/* level */}
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
 

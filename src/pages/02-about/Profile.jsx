@@ -38,7 +38,7 @@ const Profile = () => {
 
                 {/* curriculum-lattes */}
                 <a 
-                href="#" 
+                href="http://lattes.cnpq.br/3314750138625972" 
                 className="about__link" 
                 target="_blank"
                 title="Curriculum Lattes">
